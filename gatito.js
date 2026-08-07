@@ -1,7 +1,7 @@
 var pet = 0;
 
 async function init() {
-    let getty_req = await fetch(`https://getty.drewfitzgerald.co.nz/?cache=${Math.random()}`);
+    let getty_req = await fetch(`https://getty.wchouses.co.nz/?cache=${Math.random()}`);
     pet = parseInt(await getty_req.text());
 
     document.getElementById('c').innerHTML = pet.toLocaleString();
