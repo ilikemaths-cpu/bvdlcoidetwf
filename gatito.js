@@ -16,7 +16,7 @@ function gatito() {
 }
 
 function pet_getty() {
-    fetch(`https://getty.drewfitzgerald.co.nz/pet?cache=${Math.random()}`);
+    fetch(`https://getty.wchouses.co.nz/pet?cache=${Math.random()}`);
     pet++;
 
     document.getElementById('c').innerHTML = pet.toLocaleString();
